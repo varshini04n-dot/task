@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product  card</title>
+    <style>
+        .product-card{
+            width: 300px;
+            border: 3px ridge gray;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+       .product-image{
+        width: 100%;
+        border:2px solid black;
+    border-radius: 20px 0 20px 0;
+}
+@media (max-width: 600px) {
+    .product-card {
+        text-align: center;
+        margin:auto;
+
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+@media(orientation: landscape) {
+   .product-card{
+background-color:lightblue;
+   }
+}
+
+    
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img class="product-image" src="https://img.magnific.com/free-vector/vector-3d-realistic-mock-up-night-cosmetics_33099-1146.jpg" alt="Luxury Perfume" style="width:100%">
+        <div style="padding: 15px;">
+            <h2>Luxury Perfume</h2>
+            <p>Experience the luxury of our signature fragrance, designed to captivate and allure.</p>
+            <p><strong>Price:</strong> $99.99</p>
+            <button style="background-color:blue; color:white; padding:10px; border:none; border-radius:5px;text-align:center;">Buy Now</button>
+        </div></div>
+    
+</body>
+</html>
