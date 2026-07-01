@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Featured Blog Section</title>
+
+<style>
+
+body{
+    font-family:Arial, sans-serif;
+    margin:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+.blog-container{
+    text-align:center;
+}
+
+.blog{
+    width:300px;
+    border:3px ridge gray;
+    margin:15px;
+    padding:10px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.blog img{
+    width:100%;
+    height:180px;
+}
+
+img[src$=".jpg"]{
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+
+a[href^="https://"]{
+    color:red;
+}
+
+
+@media (max-width:600px){
+
+    .blog{
+        display:block;
+        width:90%;
+        margin:15px auto;
+    }
+
+    body{
+        font-size:14px;
+    }
+}
+
+
+@media (orientation:portrait){
+    .blog-container{
+        background-color:yellow;
+    }
+}
+
+
+</style>
+
+</head>
+<body>
+
+<h1>Featured Blog Section</h1>
+
+<div class="blog-container">
+
+<div class="blog">
+<h2>Benefits of Reading Books</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsk3HnpJ7kObwFdEcMNdjQztYhC9Ow1lqPorUMscdU7exOWsVwp2sxcUIk&s=10" alt="Books.jpg">
+<p>Reading books improves vocabulary, knowledge, memory, and concentration.</p>
+<a href="https://www.healthline.com/health/benefits-of-reading-books">Read More</a>
+</div>
+
+<div class="blog">
+<h2>Regular Exercise</h2>
+<img src="https://media.istockphoto.com/id/1493959975/photo/young-man-working-out-with-battle-ropes-in-gym.jpg?s=612x612&w=0&k=20&c=HCwHnSVYRuJNHc-uF9J5WAXCWztLLxNtgS-OdMX7AVM=" alt="Exercise.jpg">
+<p>Daily exercise keeps your body healthy and reduces stress.</p>
+<a href="https://epicassist.org/exercise-mental-health/">Read More</a>
+</div>
+
+<div class="blog">
+<h2>Healthy Eating</h2>
+<img src="https://media.gettyimages.com/id/2150857924/photo/woman-eating-fresh-rainbow-colored-salad-multicolored-fruits-and-vegetables-background.jpg?s=612x612&w=gi&k=20&c=f4SnaHp5u6BFiM_eRH4MAbuKWxJHrqZtQi61I_teZj8=" alt="Food.jpg">
+<p>Eating fruits and vegetables gives your body essential nutrients.</p>
+<a href="https://www.healthline.com/nutrition">Read More</a>
+</div>
+
+<div class="blog">
+<h2>Travel the World</h2>
+<img src="https://thumbs.dreamstime.com/b/happy-travel-woman-vacation-concept-funny-traveler-enjoy-her-trip-ready-to-adventure-happy-travel-woman-vacation-concept-118679424.jpg" alt="Travel.jpg">
+<p>Traveling helps you discover new places, cultures, and experiences.</p>
+<a href="https://www.nationalgeographic.com/travel">Read More</a>
+</div>
+
+<div class="blog">
+<h2>Learn Programming</h2>
+<img src="https://media.istockphoto.com/id/1363276509/photo/teacher-giving-computer-science-lecture-to-diverse-multiethnic-group-of-female-and-male.jpg?s=612x612&w=0&k=20&c=iHDI7pI98XJfh95nFw-wT9L9jYr0IzSBYB53riWOVsk=" alt="Coding.jpg">
+<p>Programming develops problem-solving skills and career opportunities.</p>
+<a href="https://www.freecodecamp.org/">Read More</a>
+</div>
+
+<div class="blog">
+<h2>Time Management</h2>
+<img src="https://static.vecteezy.com/system/resources/thumbnails/006/668/859/small/retro-black-alarm-clock-dissolving-into-a-little-particles-for-time-can-not-return-and-never-wait-anyone-time-management-concept-free-photo.jpg" alt="Clock.jpg">
+<p>Managing time effectively helps you achieve your goals faster.</p>
+<a href="https://todoist.com/productivity-methods">Read More</a>
+</div>
+
+</div>
+
+</body>
+</html>
